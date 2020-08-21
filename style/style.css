@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;}
-    html{
-        width: 100%;
-        box-sizing: border-box;
-    }
+    
+html, body{overflow-x: hidden;} 
+.nulo{display: none;}  
+
+/*--------------- HEADER ---------------  */
 header{
     display: flex;
     flex-direction: row;
@@ -278,11 +279,10 @@ footer{
     content: url(../assets/facebook-brands.svg);}
 .fa-telegram{
      content:url(../assets/telegram-brands.svg);} 
-html,body{
-    overflow-x: hidden;}         
-.nulo{
-    display: none;}
-/*--------------- HEADER      
+
+html, body{overflow-x: hidden;} 
+.nulo{display: none;}    
+/*--------------- HEADER  ---------------  */     
 /*---------------  Tablet ---------------  */
 @media screen and (min-width:768px){
     .primera-section{
