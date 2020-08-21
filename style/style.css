@@ -2,10 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;}
-    
-html, body{overflow-x: hidden;} 
-.nulo{display: none;}  
 
+html, body{overflow-x: hidden;} 
+.nulo{display: none;}
 /*--------------- HEADER ---------------  */
 header{
     display: flex;
