@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">    
     <title>Podcast Channel</title>
 </head>
@@ -14,13 +15,13 @@
         <nav class="navegador">
             <input type="checkbox" id="toggle" />
             <label for="toggle" class="menu">
-            <span class="fas fa-bars">☰</span>
+            <span class="fas fa-bars"></span>
             </label>
               <ul id="main-menu">
-                <li><a href="#">EPISODIOS</a></li>
-                <li><a href="#">NOSOTROS</a></li>
-                <li><a href="#">ENTREVISTAS</a></li>
-                <li><a href="#">TÓPICOS</a></li>
+                <li><a href="#episodios">EPISODIOS</a></li>
+                <li><a href="#nosotros">NOSOTROS</a></li>
+                <li><a href="#entrevista">ENTREVISTAS</a></li>
+                <li><a href="#topicos">TÓPICOS</a></li>
               </ul>
         </nav>        
     </header>
@@ -29,10 +30,10 @@
             <h1 class="titulo-principal">Hello <span class="world">world</span> pale blue dot<span class="punto">.</span></h1>
             <div>                            
                 <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
-                <button type="submit" onclick="location.href='http://google.com';" value="Go to Google">CONOCÉ MÁS</button>
+                <button>CONOCÉ MÁS</button>
             </div>
         </section>
-        <section class="fondo-azul">           
+        <section id="episodios" class="fondo-azul">           
             <div class="episodios" >
                 <h2 class="titulo-episodios">Episodios</h2>
                 <div class="spotify"> 
@@ -47,7 +48,7 @@
             </div>
         </div>
         </section>
-        <section class="fondo-celular">
+        <section id="nosotros" class="fondo-celular">
             <h2 class="nulo">Contenido nulo</h2>
             <div class="celular">
                 <img src="assets/phone.png" alt="phone">
@@ -58,7 +59,7 @@
                     <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves. </p>
             </div>
         </section>
-        <section>        
+        <section id="entrevista">        
             <div class="articulo desk"> 
             <h2 class="titulo-gris">Invitadas/os estelares</h2>                           
             </div>  
@@ -71,7 +72,7 @@
                 <img src="assets/susan-kare.png" alt="susan-kare">
             </div>    
         </section>
-        <section>
+        <section id="topicos">
             <h2 class="titulo-gris desk">Algunos de nuestros temas</h2>
             <div class="articulo-2">             
             <div class="iconos-contenedor ">
@@ -81,22 +82,23 @@
             <div class="ico-text"><i class="iconos icon-4"></i><br> Seguridad<br> informática</div>
            </div>
         </div> 
+        
         </section>
         <div class="novedades">            
             <div class="contenido-novedades">
                 <h2>¿Querés las últimas novedades?</h2>
-                <button type="submit" onclick="location.href='http://google.com';">ESCUCHÁ LOS EPISODIOS</button>
+                <button>ESCUCHÁ LOS EPISODIOS</button>
             </div>
         </div>    
     </main>
     <footer>
         <div class="copyright">© 2019— Hello blue pale dot</div>
         <div class="rrss">
-            <i class="fab fa-spotify" onclick="location.href='http://spotify.com/ar/';"></i>
-            <i class="fab fa-instagram" onclick="location.href='http://instagram.com';" ></i>
-            <i class="fab fa-twitter" onclick="location.href='http://twitter.com';" ></i>
-            <i class="fab fa-facebook" onclick="location.href='http://facebook.com';"></i>
-            <i class="fab fa-telegram" onclick="location.href='http://telegram.org';"></i>
+           <a href="http://spotify.com/ar/" target="_blank"><i class="fab fa-spotify"></i></a>
+           <a href="http://instagram.com" target="_blank" ><i class="fab fa-instagram"></i></a>
+           <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+           <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+           <a href="http://telegram.org" target="_blank"><i class="fab fa-telegram"></i></a>
         </div>
     </footer>
 </body>

@@ -1,8 +1,6 @@
-*{
-    margin: 0;
+*{  margin: 0;
     padding: 0;
     box-sizing: border-box;}
-
 html, body{overflow-x: hidden;} 
 .nulo{display: none;}
 /*--------------- HEADER ---------------  */
@@ -268,19 +266,7 @@ footer{
 .fab  {
     width: 17px;
     height: 17px;} 
-.fa-spotify{
-    content: url(../assets/spotify-brands.svg);}
-.fa-instagram{
-    content: url(../assets/instagram-brands.svg);}
-.fa-twitter{
-    content: url(../assets/twitter-brands.svg);}
-.fa-facebook{
-    content: url(../assets/facebook-brands.svg);}
-.fa-telegram{
-     content:url(../assets/telegram-brands.svg);} 
-
-html, body{overflow-x: hidden;} 
-.nulo{display: none;}    
+.rrss a{ color: #060A24;} 
 /*--------------- HEADER  ---------------  */     
 /*---------------  Tablet ---------------  */
 @media screen and (min-width:768px){
@@ -359,7 +345,9 @@ html, body{overflow-x: hidden;}
             font-size: 1rem;
             color: #060A24;
             letter-spacing: 0;
-            line-height: 2rem;} }          
+            line-height: 2rem;}
+  .rrss a{ color: #060A24;} 
+}          
 /*---------------  DeskTop ---------------  */
 @media screen and (min-width:1220px){  
     header{
@@ -500,7 +488,7 @@ html, body{overflow-x: hidden;}
         flex-direction:column;  
         justify-content: center;
         align-items: center;      
-        padding:7rem 1rem 4rem 1rem;   }
+        padding:7rem 1rem 4rem 1rem;}
     .contenido-novedades h2{
         font-family:'IBM Plex Sans', sans-serif;
         font-weight: 400;
@@ -523,7 +511,5 @@ html, body{overflow-x: hidden;}
     .copyright{
         padding-bottom: 0;}    
     .rrss{
-        width: 20vw;} 
-    }
-        
-
+        width: 20vw;}
+}
